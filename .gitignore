@@ -1,0 +1,6 @@
+/.idea
+/debug.py
+.DS_Store
+*.*~
+*.pyc
+*.iml
