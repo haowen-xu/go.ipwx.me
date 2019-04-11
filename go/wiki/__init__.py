@@ -52,7 +52,7 @@ async def go_to_paper(request, path):
     if path.endswith('/') or path.endswith('.md'):
         path = path.replace(' ', '_').rstrip('/')
         if not path.endswith('.md'):
-            path += '/'
+            path += '.md'
     uri = REPO_BASE_URI + path
 
     # for non-markdown file, just redirect
